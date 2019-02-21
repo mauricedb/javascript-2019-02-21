@@ -1,3 +1,4 @@
-function printMessage(msg) {
+
+export function printMessage(msg) {
   console.log(msg);
 }

@@ -1,5 +1,7 @@
-var now = new Date().toLocaleTimeString();
+const now = new Date().toLocaleTimeString();
 
 function printMessage(msg) {
-  console.log(`%cprintMessage: ${msg} at ${now}`, 'color: darkgreen');
-}   
+  console.log(`%cprintMessage: ${msg} om ${now}`, 'color: darkgreen');
+}
+
+export default printMessage;

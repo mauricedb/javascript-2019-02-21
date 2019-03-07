@@ -1,0 +1,28 @@
+{
+  "name": "module-3",
+  "version": "0.0.1",
+  "description": "Een NPM demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server ./dist",
+    "webpack": "webpack",
+    "eslint": "eslint ./src/**/*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maurice de Beijer",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "live-server": "^1.2.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}

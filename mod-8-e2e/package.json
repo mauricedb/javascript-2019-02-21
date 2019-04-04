@@ -1,0 +1,13 @@
+{
+  "name": "mod-8-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nightwatch"
+  },
+  "dependencies": {
+    "chromedriver": "^2.46.0",
+    "nightwatch": "^1.0.19"
+  }
+}

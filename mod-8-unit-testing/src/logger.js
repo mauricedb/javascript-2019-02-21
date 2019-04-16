@@ -1,5 +1,5 @@
-export default class Logger {
+module.exports = class Logger {
   log(msg) {
     console.log(msg);
   }
-}
+};

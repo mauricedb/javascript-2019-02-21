@@ -1,6 +1,7 @@
-import Logger from './logger';
+// import Logger from './logger';
+const Logger = require('./logger');
 
-export default class Calculator {
+module.exports = class Calculator {
   constructor() {
     this.logger = new Logger();
   }
